@@ -16,3 +16,4 @@
 * Add ssh [config](.ssh/config)
 * Access middleman in order to save fingerprint to `~/.ssh/known_hosts`
 * Set up autossh in [crontab](crontab)
+* Set up [telegram-bot](etc/ssh/sshrc) or other notification scheme
