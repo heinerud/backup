@@ -12,8 +12,8 @@
 ## On remote
 * [Secure your remote server](https://www.raspberrypi.org/documentation/configuration/security.md)
 * Add key in order to access middleman
-* chmod 400 <key>
+* `chmod 400 <key>`
 * Add ssh [config](.ssh/config)
 * Access middleman in order to save fingerprint to `~/.ssh/known_hosts`
 * Set up autossh in [crontab](crontab)
-* Set up [telegram-bot](etc/ssh/sshrc) or other notification scheme
+* Set up [telegram-bot](etc/profile.d/notify_login.sh) or other notification scheme
