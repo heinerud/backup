@@ -1,1 +1,1 @@
-@reboot autossh -M 0 -f -T -N ssh-tunnel
+@reboot autossh -M 0 -f -T -N my-tunnel
