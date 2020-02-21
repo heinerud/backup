@@ -1,4 +1,4 @@
-# Backup using SSH tunneling and rsync
+# Remote backup using SSH tunneling and rsync
 
 * Get an EC2 instance (or similar)
 * Save private key
@@ -15,5 +15,6 @@
 * `chmod 400 <key>`
 * Add ssh [config](.ssh/config)
 * Access middleman in order to save fingerprint to `~/.ssh/known_hosts`
+* Install `autossh`
 * Set up autossh in [crontab](crontab)
 * Set up [telegram-bot](etc/profile.d/notify_login.sh) or other notification scheme
